@@ -24,6 +24,9 @@ jobs:
 
     steps:
     - uses: actions/checkout@v2
+      
+    - name: test
+      run: echo ${{ github.ref_type }}
     
     - name: Set Version Variable
       if: ${{ github.ref_type == 'tag' }}
