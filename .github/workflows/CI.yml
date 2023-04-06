@@ -18,7 +18,7 @@ jobs:
 
     env:
       BUILD_CONFIG: 'Release'
-      SOLUTION: 'VictorKrogh.NET.Extensions.Disposable.sln'
+      SOLUTION: 'VictorKrogh.NET.Disposable.sln'
 
     runs-on: ubuntu-latest
 
