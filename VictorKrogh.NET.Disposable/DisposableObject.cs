@@ -1,6 +1,6 @@
 ﻿namespace VictorKrogh.NET.Disposable;
 
-public abstract class Disposable : IDisposable, IAsyncDisposable
+public abstract class DisposableObject : IDisposable, IAsyncDisposable
 {
     private bool _disposed;
 
