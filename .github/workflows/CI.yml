@@ -39,6 +39,9 @@
 name: CI
 
 on:
+  create:
+    branches: 
+      - release/**
   push:
     branches: [ "master" ]
   pull_request:
