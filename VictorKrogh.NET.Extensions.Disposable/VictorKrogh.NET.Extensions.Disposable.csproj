@@ -1,21 +1,22 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
-  <PropertyGroup>
-    <TargetFramework>net6.0</TargetFramework>
-    <ImplicitUsings>enable</ImplicitUsings>
-    <Nullable>enable</Nullable>
-    <Title>VictorKrogh.NET.Extensions.Disposable</Title>
-    <Description>Base implementation for IDisposable interface.</Description>
-    <RepositoryUrl>https://github.com/VictorKroghDotNet/VictorKrogh.NET.Extensions.Disposable</RepositoryUrl>
-    <PackageReadmeFile>README.md</PackageReadmeFile>
-    <Version>1.0.1</Version>
-  </PropertyGroup>
+	<PropertyGroup>
+		<TargetFramework>net6.0</TargetFramework>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>enable</Nullable>
+		<Title>VictorKrogh.NET.Extensions.Disposable</Title>
+		<Description>Base implementation for IDisposable interface.</Description>
+		<RepositoryUrl>https://github.com/VictorKroghDotNet/VictorKrogh.NET.Extensions.Disposable</RepositoryUrl>
+		<PackageReadmeFile>README.md</PackageReadmeFile>
+		<Version>1.0.1</Version>
+		<GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+	</PropertyGroup>
 
-  <ItemGroup>
-    <None Include="..\README.md">
-      <Pack>True</Pack>
-      <PackagePath>\</PackagePath>
-    </None>
-  </ItemGroup>
+	<ItemGroup>
+		<None Include="..\README.md">
+			<Pack>True</Pack>
+			<PackagePath>\</PackagePath>
+		</None>
+	</ItemGroup>
 
 </Project>
