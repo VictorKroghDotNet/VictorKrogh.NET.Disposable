@@ -1,10 +1,10 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
 	<PropertyGroup>
 		<TargetFramework>net6.0</TargetFramework>
 		<ImplicitUsings>enable</ImplicitUsings>
 		<Nullable>enable</Nullable>
-		<Title>VictorKrogh.NET.Extensions.Disposable</Title>
+		<Title>VictorKrogh.NET.Disposable</Title>
 		<Description>Base implementation for IDisposable interface.</Description>
 		<RepositoryUrl>https://github.com/VictorKroghDotNet/VictorKrogh.NET.Extensions.Disposable</RepositoryUrl>
 		<PackageReadmeFile>README.md</PackageReadmeFile>

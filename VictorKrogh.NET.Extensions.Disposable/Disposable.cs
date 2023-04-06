@@ -1,4 +1,4 @@
-﻿namespace VictorKrogh.NET.Extensions.Disposable;
+﻿namespace VictorKrogh.NET.Disposable;
 
 public abstract class Disposable : IDisposable, IAsyncDisposable
 {
